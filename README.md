@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="assets/nekoplayer-banner.svg" alt="NekoPlayer — Gothic Metal Music Player" width="100%">
+  <img src="nekoplayer-banner.jpg" alt="NekoPlayer — Gothic Metal Music Player" width="100%">
 </p>
 
 <p align="center">
   <a href="../../releases/tag/v1.0.0"><img src="https://img.shields.io/badge/version-1.0.0-8f2049?style=for-the-badge&logo=github"></a>
   <img src="https://img.shields.io/badge/platform-Windows-1f6feb?style=for-the-badge&logo=windows&logoColor=white">
-  <img src="https://img.shields.io/badge/architecture-x64-7c3aed?style=for-the-badge"></a>
+  <img src="https://img.shields.io/badge/architecture-x64-7c3aed?style=for-the-badge">
   <img src="https://img.shields.io/badge/UI-HTML%20%2F%20CSS%20%2F%20JS-ec4899?style=for-the-badge&logo=javascript&logoColor=white">
 </p>
 
