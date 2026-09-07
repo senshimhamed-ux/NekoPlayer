@@ -1,90 +1,113 @@
-# 🐈 NekoPlayer
+<p align="center">
+  <img src="assets/nekoplayer-banner.svg" alt="NekoPlayer — Gothic Metal Music Player" width="100%">
+</p>
 
-> A Gothic / Metal inspired desktop music player for Windows.
+<p align="center">
+  <a href="../../releases/tag/v1.0.0"><img src="https://img.shields.io/badge/version-1.0.0-8f2049?style=for-the-badge&logo=github"></a>
+  <img src="https://img.shields.io/badge/platform-Windows-1f6feb?style=for-the-badge&logo=windows&logoColor=white">
+  <img src="https://img.shields.io/badge/architecture-x64-7c3aed?style=for-the-badge"></a>
+  <img src="https://img.shields.io/badge/UI-HTML%20%2F%20CSS%20%2F%20JS-ec4899?style=for-the-badge&logo=javascript&logoColor=white">
+</p>
 
-NekoPlayer is a lightweight Windows desktop music player built around an original HTML/CSS/JavaScript interface with a Python backend. It is designed for local music playback while also providing a queue, artwork support, YouTube/yt-dlp integration, and FFmpeg-based conversion.
+<p align="center">
+  <b>A Gothic / Metal inspired desktop music player for Windows.</b><br>
+  Local playback • Library • Artwork • Queue • YouTube / yt-dlp • FFmpeg
+</p>
+
+<p align="center">
+  <a href="../../releases/tag/v1.0.0">🚀 Download v1.0.0</a> •
+  <a href="#installation">📦 Installation</a> •
+  <a href="#features">✨ Features</a>
+</p>
+
+---
 
 ## ✨ Features
 
-- 🎵 Local MP3 playback
-- 📚 Music library management
-- 🖼️ Album artwork and covers
-- 📋 Queue / playlist support
-- ▶️ YouTube integration through yt-dlp
-- 🔄 FFmpeg-powered MP3 conversion
-- ⚙️ Embedded Python backend
-- 🖥️ Native Windows desktop application
-- 🖤 Gothic / Metal visual design
-- 📦 Portable ZIP distribution
-- 🛠️ Windows installer
+| | Capability | | Capability |
+|---|---|---|---|
+| 🎵 | Local MP3 playback | 📚 | Music library management |
+| 🖼️ | Album artwork & covers | 📋 | Queue / playlist support |
+| ▶️ | YouTube integration via yt-dlp | 🔄 | FFmpeg-powered MP3 conversion |
+| ⚙️ | Embedded Python backend | 🖥️ | Native Windows desktop app |
+| 🖤 | Gothic / Metal visual design | 📦 | Portable ZIP distribution |
+| 🛠️ | Windows installer | | |
 
-## 📸 Preview
+## 📸 Interface Preview
 
 <p align="center">
-  <img src="nekoplayer.icon.png" alt="NekoPlayer Icon" width="180">
+  <img src="disk.png" alt="NekoPlayer main player interface" width="92%">
 </p>
 
-<p align="center">
-  <img src="disk.png" alt="NekoPlayer Player Interface" width="900">
-</p>
+<p align="center"><sub>Main player interface</sub></p>
 
 <p align="center">
-  <img src="queue.png" alt="NekoPlayer Queue Interface" width="900">
+  <img src="queue.png" alt="NekoPlayer queue interface" width="92%">
 </p>
+
+<p align="center"><sub>Queue / playlist interface</sub></p>
 
 ## 💿 Installation
 
 ### Recommended — Windows Installer
 
-1. Download **NekoPlayer-Setup.exe** from the [v1.0.0 Releases](../../releases/tag/v1.0.0) page.
-2. Run the installer.
-3. Follow the installation wizard.
-4. Optionally create a desktop shortcut.
+1. Open the [v1.0.0 Release](../../releases/tag/v1.0.0).
+2. Download **NekoPlayer-Setup.exe**.
+3. Run the installer and follow the setup wizard.
+4. Choose whether to create a desktop shortcut.
 5. Launch **NekoPlayer**.
 
-No Python installation is required for the packaged release.
+> No Python installation is required for the packaged release.
 
-### Portable Version
+### Portable Edition
 
-1. Download **NekoPlayer-Release.zip** from the [v1.0.0 release](../../releases/tag/v1.0.0).
-2. Extract the ZIP to any folder.
-3. Run `NekoPlayer.exe`.
+1. Open the [v1.0.0 Release](../../releases/tag/v1.0.0).
+2. Download **NekoPlayer-Release.zip**.
+3. Extract the archive to any folder.
+4. Launch `NekoPlayer.exe`.
 
-The portable version does not require an installer.
+> The portable edition does not require an installer.
 
 ## 🖥️ System Requirements
 
-- Windows 10 or Windows 11
-- 64-bit Windows
-- Internet connection only for online features such as YouTube/yt-dlp
+| Requirement | Details |
+|---|---|
+| Operating system | Windows 10 / Windows 11 |
+| Architecture | 64-bit (x64) |
+| Internet | Only required for online features such as YouTube / yt-dlp |
+| Python | Not required for packaged releases |
 
 ## 🚀 Usage
 
-Launch NekoPlayer and use the main interface to manage your music library, play local tracks, control the queue, and access supported online media features.
+Launch NekoPlayer and manage your music directly from the desktop interface. Use the library for local tracks, build a queue, browse artwork, and use supported online media features when connected to the internet.
 
-## 📦 Release
-
-### v1.0.0 — First Stable Release
+## 📦 v1.0.0 — First Stable Release
 
 The first public stable release of NekoPlayer.
 
-**Included downloads:**
+### Included downloads
 
-- `NekoPlayer-Setup.exe` — Windows installer
-- `NekoPlayer-Release.zip` — Portable version
+- **NekoPlayer-Setup.exe** — Windows installer
+- **NekoPlayer-Release.zip** — Portable version
+
+<a href="../../releases/tag/v1.0.0">
+  <img src="https://img.shields.io/badge/Download-NekoPlayer%20v1.0.0-8f2049?style=for-the-badge&logo=github" alt="Download NekoPlayer v1.0.0">
+</a>
 
 ## ⚠️ Windows SmartScreen
 
-Because the release binaries may not be code-signed, Windows SmartScreen can display a warning when launching the installer or application. If you downloaded NekoPlayer from the official GitHub release page, verify the filename before continuing.
+The release binaries may not be code-signed. Windows SmartScreen can therefore display a warning when the installer or application is launched.
+
+If you downloaded NekoPlayer from the official GitHub release page, verify the filename and source before proceeding.
 
 ## 🐛 Troubleshooting
 
-If NekoPlayer does not start:
+**NekoPlayer does not start**
 
-1. Make sure you are using 64-bit Windows 10/11.
-2. Re-extract the complete portable ZIP if using the portable version.
-3. If using the installer, reinstall NekoPlayer from the latest release.
-4. For online features, verify that your internet connection is working.
+- Confirm that Windows is 64-bit and supported.
+- For the portable edition, re-extract the complete ZIP archive.
+- For the installer edition, reinstall from the latest release.
+- For YouTube / yt-dlp features, verify that your internet connection is working.
 
 ## 📄 License
 
@@ -94,6 +117,8 @@ No open-source license has been declared yet. All rights are reserved unless oth
 
 **senshimhamed-ux**
 
----
+<p align="center">
+  <img src="nekoplayer.icon.png" alt="NekoPlayer" width="96">
+</p>
 
-Made with 🖤 for music lovers.
+<p align="center"><sub>Made with 🖤 for music lovers.</sub></p>
