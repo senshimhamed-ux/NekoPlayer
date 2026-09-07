@@ -68,6 +68,25 @@
 
 > The portable edition does not require an installer.
 
+### 🖥️ Command-Line Installation
+
+The Windows installer can also be launched from **PowerShell** or **Command Prompt** for automated or silent installation.
+
+**Silent install:**
+
+```powershell
+.\NekoPlayer-Setup.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
+```
+
+**Launch the portable edition from PowerShell:**
+
+```powershell
+cd .\NekoPlayer-Release
+.\NekoPlayer.exe
+```
+
+> GUI installation is recommended for most users. Command-line options are optional and intended for users who prefer terminal-based workflows or automated setup.
+
 ## 🖥️ System Requirements
 
 | Requirement | Details |
