@@ -18,9 +18,19 @@ NekoPlayer is a lightweight Windows desktop music player built around an origina
 - 📦 Portable ZIP distribution
 - 🛠️ Windows installer
 
-## 📸 Screenshot
+## 📸 Preview
 
-> Screenshot coming soon.
+<p align="center">
+  <img src="nekoplayer.icon.png" alt="NekoPlayer Icon" width="180">
+</p>
+
+<p align="center">
+  <img src="disk.png" alt="NekoPlayer Player Interface" width="900">
+</p>
+
+<p align="center">
+  <img src="queue.png" alt="NekoPlayer Queue Interface" width="900">
+</p>
 
 ## 💿 Installation
 
