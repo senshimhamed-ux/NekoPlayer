@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
   <title id="title">NekoPlayer</title>
   <desc id="desc">Gothic Metal music player for Windows</desc>
   <defs>
@@ -27,7 +27,7 @@
       <stop offset="100%" stop-color="#000" stop-opacity="0"/>
     </linearGradient>
     <clipPath id="iconClip">
-      <circle cx="700" cy="205" r="88"/>
+      <circle cx="700" cy="205" r="90"/>
     </clipPath>
   </defs>
 
@@ -44,9 +44,10 @@
     <circle r="115" fill="none" stroke="#e8c4d0" stroke-width="2" stroke-dasharray="7 13"/>
   </g>
 
-  <circle cx="700" cy="205" r="101" fill="#0b090d" stroke="#a51d4e" stroke-width="3"/>
-  <circle cx="700" cy="205" r="94" fill="none" stroke="#57152f" stroke-width="2" stroke-dasharray="5 10"/>
-  <image href="../nekoplayer.icon.png" x="612" y="117" width="176" height="176" preserveAspectRatio="xMidYMid slice" clip-path="url(#iconClip)"/>
+  <!-- The real NekoPlayer icon from the repository. -->
+  <circle cx="700" cy="205" r="103" fill="#0b090d" stroke="#a51d4e" stroke-width="3"/>
+  <circle cx="700" cy="205" r="96" fill="none" stroke="#57152f" stroke-width="2" stroke-dasharray="5 10"/>
+  <image href="https://raw.githubusercontent.com/senshimhamed-ux/NekoPlayer/main/nekoplayer.icon.png" x="610" y="115" width="180" height="180" preserveAspectRatio="xMidYMid meet" clip-path="url(#iconClip)"/>
 
   <g text-anchor="middle" font-family="Segoe UI, Arial, sans-serif">
     <text x="700" y="78" fill="#f4e7eb" font-size="20" letter-spacing="8" font-weight="600">GOTHIC • METAL • MUSIC</text>
