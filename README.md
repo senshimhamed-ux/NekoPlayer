@@ -87,6 +87,34 @@ cd .\NekoPlayer-Release
 
 > GUI installation is recommended for most users. Command-line options are optional and intended for users who prefer terminal-based workflows or automated setup.
 
+### 🛠️ Portable ZIP — Windows Security Note
+
+Windows may mark files downloaded from the internet as originating from an untrusted source. In some cases, this can prevent bundled .NET components from loading correctly after the ZIP is extracted.
+
+If the portable version shows an error mentioning `Python.Runtime.Loader.Initialize`, try unblocking the ZIP **before extracting it again**.
+
+**File Explorer:**
+
+1. Right-click **NekoPlayer-Release.zip**.
+2. Select **Properties**.
+3. Check **Unblock** (if the option is available).
+4. Click **Apply** → **OK**.
+5. Extract the ZIP again and launch `NekoPlayer.exe`.
+
+**PowerShell:**
+
+```powershell
+Unblock-File ".\NekoPlayer-Release.zip"
+```
+
+Then extract it again:
+
+```powershell
+Expand-Archive ".\NekoPlayer-Release.zip" ".\NekoPlayer-Release" -Force
+```
+
+> This is only a Windows security/unblocking step. It does **not** mean Python, pythonnet, or other development dependencies need to be installed separately.
+
 ## 🖥️ System Requirements
 
 | Requirement | Details |
@@ -125,6 +153,7 @@ If you downloaded NekoPlayer from the official GitHub release page, verify the f
 
 - Confirm that Windows is 64-bit and supported.
 - For the portable edition, re-extract the complete ZIP archive.
+- If you see `Python.Runtime.Loader.Initialize`, follow the [Portable ZIP — Windows Security Note](#-portable-zip--windows-security-note).
 - For the installer edition, reinstall from the latest release.
 - For YouTube / yt-dlp features, verify that your internet connection is working.
 
